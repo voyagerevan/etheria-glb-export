@@ -1,6 +1,6 @@
 {
   "name": "etheria-glb-export",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "type": "module",
   "description": "Export Etheria tiles to .glb (old + new builds)",
   "main": "index.js",
@@ -8,6 +8,8 @@
     "etheria": "node src/export-tile.js",
     "old": "node src/export-tile.js --mode old",
     "new": "node src/export-tile.js --mode new",
+    "auto": "node src/export-tile.js --mode auto",
+    "help": "node src/export-tile.js --help",
     "test": "echo \"No tests yet\" && exit 0"
   },
   "keywords": [
